@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - voting@localhost" uuid="9cc97105-ab7e-4cb6-aac3-dcdcc9c201e9">
+    <database-info product="PostgreSQL" version="9.5beta1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.2">
+      <database id="1" name="postgres"/>
+      <database id="2" name="voting"/>
+      <schema id="3" parent="1" name="public">
+        <object-id>2200</object-id>
+        <comment>standard public schema</comment>
+        <introspection-timestamp>2015-11-09.20:41:30.717</introspection-timestamp>
+      </schema>
+      <schema id="4" parent="2" name="public">
+        <object-id>2200</object-id>
+        <comment>standard public schema</comment>
+      </schema>
+    </database-model>
+  </data-source>
+</component>
